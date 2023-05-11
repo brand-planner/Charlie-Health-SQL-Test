@@ -1,0 +1,4 @@
+/* List the following details of each employee: employee number, last name, first name, gender, and salary. */
+select Employees.emp_no,employees.last_name, employees.first_name, employees.gender,salaries.salary
+from employees
+join salaries on employees.emp_no = salaries.emp_no
